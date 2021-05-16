@@ -25,4 +25,4 @@ The guide uploaded in the virtual classroom made by the teachers - Modesto and D
 
 ## Final view
 
-![Gif showing how it works](https://github.com/PabloOQ/pr1-CIU/blob/main/winner.gif)
+![Gif showing how it works](https://github.com/PabloOQ/pr12-CIU/blob/main/processing/pr12/winner.gif)
