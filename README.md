@@ -2,7 +2,9 @@
 
 Esta práctica consiste en la combinación de lo aprendido en la asignatura Creando Interfaces de Usuario con conocimientos sobre programación con [Arduino](https://www.arduino.cc/). En concreto, debemos implementar la práctica del Pong realizada anteriormente con una placa arduino y un sensor de proximidad de forma que se pueda controlar una de las palas con el movimiento de la mano.
 
-[Pablo Ortigosa](https://github.com/PabloOQ) · [Pablo Morales](https://github.com/pablomoralesgomez) · [Christian García](https://github.com/Chgv99)
+- [Christian García](https://github.com/Chgv99)
+- [Pablo Morales](https://github.com/pablomoralesgomez)
+- [Pablo Ortigosa](https://github.com/PabloOQ)
 
 *Universidad de Las Palmas de Gran Canaria*
 
