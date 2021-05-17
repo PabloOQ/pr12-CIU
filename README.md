@@ -30,7 +30,10 @@ Por ello, el código del Pong está dividido en varios archivos *.pde* (en el fi
 
 ## Control
 
+Para comenzar pulsar *espacio*.
+
 Para controlar la pala izquierda utilizar *w* y *s*.
+
 Para controlar la pala derecha *acercar* y *alejar* la mano del sensor.
 
 ## Muestra
