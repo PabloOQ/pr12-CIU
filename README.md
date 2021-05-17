@@ -1,4 +1,4 @@
-# Lab 12 CIU - Pong game
+# Práctica 12 CIU - Pong
 
 Esta práctica consiste en la combinación de lo aprendido en la asignatura Creando Interfaces de Usuario con conocimientos sobre programación con [Arduino](https://www.arduino.cc/). En concreto, debemos implementar la práctica del Pong realizada anteriormente con una placa arduino y un sensor de proximidad de forma que se pueda controlar una de las palas con el movimiento de la mano.
 
@@ -16,7 +16,7 @@ Por esta razón, el proyecto se divide en dos partes
 
 ### Arduino
 
-
+En la placa arduino se está leyendo constantemente el puerto *A0* (en intervalos de 100ms), que es donde está conectado el sensor. Se ha acotado el rango mínimo y máximo para que a la hora de llevar la pala del pong hasta la parte superior del campo no se tenga que levantar demasiado el brazo.
 
 ### Processing
 
@@ -30,8 +30,8 @@ Por ello, el código del Pong está dividido en varios archivos *.pde* (en el fi
 
 ## Control
 
-Para controlar la pala izquierda utilizar 'w' y 's'.
-Para controlar la pala derecha 'acercar' y 'alejar' la mano del sensor.
+Para controlar la pala izquierda utilizar *w* y *s*.
+Para controlar la pala derecha *acercar* y *alejar* la mano del sensor.
 
 ## Muestra
 
@@ -39,4 +39,6 @@ Para controlar la pala derecha 'acercar' y 'alejar' la mano del sensor.
 
 ## References
 
-The guide uploaded in the virtual classroom made by the teachers - Modesto and Daniel
+- [Processing Reference](https://processing.org/reference/)
+- [Arduino](https://www.arduino.cc/reference/en/)
+- Guión de prácticas de la asignatura. Modesto y Daniel
