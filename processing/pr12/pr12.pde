@@ -57,6 +57,10 @@ void draw(){
     logic();
     show();
     finishRecord();
+  }else{
+    background(255);
+    fill(0);
+    text("Pulsar ESPACIO para comenzar", 20, 20);
   }
 }
 
@@ -94,11 +98,11 @@ void logic(){
 
 void record(){
   if ((rScore == 9 || lScore == 9) && !recording){
-        winGif = new GifMaker(this, "winner.gif");
-        winGif.setRepeat(0);
-        gifCount = 0;
-        recording = true;
-        stopRecording = false;
+    winGif = new GifMaker(this, "winner.gif");
+    winGif.setRepeat(0);
+    gifCount = 0;
+    recording = true;
+    stopRecording = false;
   }
 }
 
