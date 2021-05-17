@@ -1,5 +1,5 @@
-int mini = 600;
-int maxi = 0;
+int maxi = 600;
+int mini = 0;
 
 void setup() {
   pinMode(A0, INPUT);
@@ -8,10 +8,10 @@ void setup() {
 
 void loop() {
   int current = analogRead(A0);
-  if (mini > current){
-    mini = current;
-  }else if(current > maxi){
+  if (maxi > current){
     maxi = current;
+  }else if(current > mini){
+    mini = current;
   }
   Serial.println(current);
 
