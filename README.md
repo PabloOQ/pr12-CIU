@@ -10,15 +10,30 @@ Esta práctica consiste en la combinación de lo aprendido en la asignatura Crea
 
 ## Implementación
 
-There are 3 files, a main class (pr1.pde) which is both the view and the controller, and 2 objects classes which are the model, these are ball.pde and paddle.pde. Inside pr1.pde the loop (draw) function has 4 parts:
-* gifMethod() which, if it is the match point, records each frame before they update.
-* logic() which updates the information of the score and the positions of each element, it also checks for the ball collisions.
-* show() this is the view method, it displays each thing on the screen.
-* finishRecord() this method finishes the recording of the gif and plays a sound when a player wins the match.
+Para la realización de este proyecto, se requería el uso de una placa arduino junto con un sensor de proximidad proporcionado por la Universidad para añadir la funcionalidad de mover una de las palas del proyecto Pong en Processing con el movimiento de la mano.
 
-Finally to move the paddles use 'w' and 's' for the left player and 'o' and 'l' for the right player. 
+Por esta razón, el proyecto se divide en dos partes
 
-## Final view
+### Arduino
+
+
+
+### Processing
+
+El proyecto Pong en Processing recogerá los datos enviados desde la arduino. Hemos utilizado como base el Pong del compañero [Pablo Ortigosa](https://github.com/PabloOQ), dado que el código estaba bien organizado y la implementación del rebote era la más adecuada para un juego que se va a controlar con el movimiento de la mano.
+
+Por ello, el código del Pong está dividido en varios archivos *.pde* (en el fichero processing):
+- **pr12.pde:** El código principal. Realiza todos los cálculos.
+- **ball.pde:** La clase de la pelota. Guarda la posición y la velocidad.
+- **paddle.pde:** La clase de las palas. Guarda la posición de cada pala y si se está moviendo.
+- **meanList.pde:** Una clase para almacenar los últimos valores de proximidad recibidos desde arduino. Evita en gran medida movimientos erráticos por ruido en el sensor.
+
+## Control
+
+Para controlar la pala izquierda utilizar 'w' y 's'.
+Para controlar la pala derecha 'acercar' y 'alejar' la mano del sensor.
+
+## Muestra
 
 ![Gif showing how it works](https://github.com/PabloOQ/pr12-CIU/blob/main/processing/pr12/winner.gif)
 
